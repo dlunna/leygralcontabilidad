@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-  <?php include ('./coreFRONTx/head/analitycs.html'); ?>
-  <?php include ('./coreFRONTx/head/cabecera.html'); ?>
-  <?php include ('./coreFRONTx/head/estilos.html'); ?>
-  <?php include ('./coreFRONTx/head/java.html'); ?>
+  <?php include ('./dotk/00head/analitycs.html'); ?>
+  <?php include ('./dotk/00head/cabecera.html'); ?>
+  <?php include ('./dotk/00head/estilos.html'); ?>
 </head>
 
 <body>
@@ -17,13 +16,12 @@
 
     <nav>
       <!-- Menu principal superior -->
-      <?php //include ('./coreFRONTx/header/nav/menu-superior/menu.html'); ?>
-      <?php include ('../lib18/coreFRONTx/header/nav/menu-superior/menu.html'); ?>
+      <?php include ('../lib18/coreFRONTx/01header/nav/menu-superior/menu.html'); ?>
     </nav>
 
   </header>
 
-  <?php include ('./coreFRONTx/header/begajoso/menu-pegajoso.html'); ?>
+  <?php include ('./dotk/01header/02begajoso/menu-pegajoso.html'); ?>
 
   <main>
     <div class="container marketing">
@@ -40,30 +38,30 @@
       <br />
       <br />
       <br />
-      <?php include ('./coreFRONTx/main/edosfinancieros/edosfinancieros.html'); ?>
+      <?php include ('./dotk/05main/01edosfinancieros/edosfinancieros.html'); ?>
       <a id="presupuestales"></a>
       <br />
       <br />
       <br />
-      <?php include ('./coreFRONTx/main/edospresupuestales/edospresupuestales.html'); ?>
+      <?php include ('./dotk/05main/02edospresupuestales/edospresupuestales.html'); ?>
       <a id="cuentapublica"></a>
       <br />
       <br />
       <br />
-      <?php include ('./coreFRONTx/main/cuentapublica/armonizacioncontable.html'); ?>
+      <?php include ('./dotk/05main/03cuentapublica/armonizacioncontable.html'); ?>
       <a id="indicadores"></a>
       <br />
       <br />
       <br />
-      <?php include ('./coreFRONTx/main/Indicadores-de-resultados/indicadores.html'); ?>
+      <?php include ('./dotk/05main/04Indicadores-de-resultados/indicadores.html'); ?>
 
 
       <br />
       <br />
-      <a name="mapadesitio"></a>
+      <a id="mapadesitio"></a>
       <hr class="featurette-divider">
       <!-- Menu con todos los sitios y mini sitios de la página -->
-      <?php include ('./coreFRONTx/main/tmenu-footer/menufooter.php'); ?>
+      <?php include ('../lib18/coreFRONTx/main/tmenu-footer/menufooter.php'); ?>
 
     </div>
 
@@ -74,9 +72,11 @@
     <?php include ('../lib18/seph/hf/footer.html'); ?>
   </footer>
 
+  <?php include ('../lib18/coreFRONTx/09js/java.html'); ?>
+
   <!-- Script para dar la animacion al boton flotante que lleva arriba -->
   <a href="#" class="back-to-top">Volver arriba</a>
-  <script src="./coreFRONTx/xefectos/boton-arriba/script.js"></script>
+  <script src="../lib18/coreFRONTx/10boton-arriba/script.js"></script>
 
 </body>
 
